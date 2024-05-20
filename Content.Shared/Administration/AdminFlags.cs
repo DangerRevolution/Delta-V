@@ -89,11 +89,20 @@
         /// </summary>
         EditNotes = 1 << 14,
 
-
         /// <summary>
         ///     Lets you Massban, on SS14.Admin
         /// </summary>
         MassBan = 1 << 15,
+
+        /// <summary>
+        /// Allows you to remain hidden from adminwho except to other admins with this flag.
+        /// </summary>
+        Stealth = 1 << 16,
+
+        ///<summary>
+		/// Allows you to use Admin chat
+		///</summary>
+		Adminchat = 1 << 17,
 
         /// <summary>
         ///     DeltaV - The ability to whitelist people. Either this permission or +BAN is required for remove.
